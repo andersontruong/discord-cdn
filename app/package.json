@@ -1,0 +1,32 @@
+{
+  "name": "discord-cdn",
+  "version": "1.0.0",
+  "description": "free CDN with Express API, MongoDB, and Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersontruong/discord-cdn.git"
+  },
+  "author": "andersontruong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersontruong/discord-cdn/issues"
+  },
+  "homepage": "https://github.com/andersontruong/discord-cdn#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
