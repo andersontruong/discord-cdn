@@ -2,11 +2,10 @@
 free CDN with Express API and Discord Bot
 
 ## Environment Variables
-1. `MONGODB_URI`
-2. `BOT_TOKEN`
-3. `GUILD_ID`
-4. `CHANNEL_ID`
-5. (Optional) `API_KEY`
+1. `BOT_TOKEN`
+2. `GUILD_ID`
+3. `CHANNEL_ID`
+4. (Optional) `API_KEY`
 
 ## Setup (Discord Bot + Variables)
 1. [Follow this guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
